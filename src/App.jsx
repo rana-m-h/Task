@@ -3,7 +3,6 @@ import React, { useEffect, useState } from 'react';
 import './App.css';
 import Graph from './Componets/Graph/Graph.jsx';
 
-
 function App() {
   const [data, setData] = useState(null);
   const [transactions, setTransactions] = useState(null);

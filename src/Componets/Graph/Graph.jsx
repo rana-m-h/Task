@@ -3,8 +3,6 @@
 
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend} from 'recharts';
 
-
-
  export default function Graph(){
 
 const data = [
