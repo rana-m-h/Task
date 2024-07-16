@@ -17,7 +17,7 @@ function App() {
       });
   }, []);
 
-  const search = (e) => {
+  const filter = (e) => {
     const query = e.target.value.toLowerCase();
     setTransactions(
       data.transactions.filter((transaction) =>
@@ -42,7 +42,7 @@ function App() {
 </div>
 
   <label for="formGroupExampleInput" class="form-label"></label>
-  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Search By Name" onChange={search}/>
+  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="filter By Name" onChange={filter}/>
 </div>
       <div className="container w-50">
         <div className='row'>
