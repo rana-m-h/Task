@@ -42,7 +42,7 @@ function App() {
 </div>
 
   <label for="formGroupExampleInput" class="form-label"></label>
-  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="filter By Name" onChange={filter}/>
+  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="search By Name" onChange={filter}/>
 </div>
       <div className="container w-50">
         <div className='row'>
